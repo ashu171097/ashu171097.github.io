@@ -1,0 +1,29 @@
+h1{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+#note{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+fieldset{
+  margin:10px;
+}
+button{
+  margin: auto;
+}
+#submit{
+  margin-left: 40%;
+  height: 50px;
+  width: 30%;
+background: #0a85ff;
+color: white;
+font-size: 2em;
+}
+body{
+  background: lightgoldenrodyellow;
+}
+
+textarea {
+  width: calc(100% - 7px);
+}

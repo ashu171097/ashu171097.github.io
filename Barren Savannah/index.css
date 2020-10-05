@@ -1,0 +1,48 @@
+body{
+  background: #25060B url("https://www.html.am/templates/downloads/bryantsmith/barrensavannah/background.png");
+  color: #061C37;
+}
+#contextsection-first{
+  border: solid  10px #061C37;
+  background-image: url("https://www.html.am/templates/downloads/bryantsmith/barrensavannah/mainImage.jpg");
+  width:50%;
+  margin-left: 25%;
+  padding-bottom: 15%;
+  margin-top: 25px;
+}
+#contextsection-second{
+  background-image: url("https://www.html.am/templates/downloads/bryantsmith/barrensavannah/contentBack.png");
+ border: solid  10px #061C37;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+.title-1{
+  color: white;
+}
+.context-first{
+position: relative;
+left: 20px;
+font-size: 12px;
+}
+.context-second{
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+}
+#page{
+  margin-top: 3%;
+}
+.top-navigation{
+display:inline;
+position: relative;
+left: 30%;
+margin: 2%;
+}
+a{
+  color: white;
+  font-size: 1.2em;
+}
+a:hover {
+  background-color: black;
+}

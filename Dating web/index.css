@@ -1,0 +1,26 @@
+.container{
+  padding-top: 20%;
+  text-align:center;
+}
+body{
+  background-image: url("smile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,p{
+  color: white;
+}
+.heading{
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+.disc{
+  font-size: 1.5em
+}
+#line{
+border-color:black;
+width: 40%;
+}
+.navbar-brand{
+  margin-left: 40px;
+}
