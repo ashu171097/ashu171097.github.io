@@ -1,0 +1,26 @@
+body {
+  background: #2b2e4a;
+  font-family: 'Open Sans', sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+  border: 40px solid #2EC484;
+  border-top: none;
+  margin: 0;
+}
+
+p {
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+form{
+  font-size: 1.5em;
+  margin: 20px;
+}
+#sub{
+  height: 80px;
+  width: 160px;
+  font-size: 1.5em;
+  background: #FF9F1C;
+  border-radius: 25px;
+}
