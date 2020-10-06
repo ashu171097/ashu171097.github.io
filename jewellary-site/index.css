@@ -56,9 +56,6 @@ padding-left: 10px;
   font-size: 200%;
   color:#00adb5;
 }
-.center{
-  text-align: center;
-}
 /*End JEWELLARY section */
 
 /* CONTACT Section */
@@ -91,6 +88,7 @@ margin-right: 0;
     margin: 20px 0 0 20px;
 }
 .btn{
+    width: 185px;
     background: #72dd78;
     border: none;
     color: #fff;
@@ -98,11 +96,10 @@ margin-right: 0;
     font-size: 18px;
     font-weight: 300;
     border-radius: 100px;
-    text-align: center;
-    width: 80%;
-    margin: 10px auto;
-    line-height: unset;
-    margin: 20px 0 0 20px;
+    line-height: 70px;
+    margin-top: 25px;
+   text-align: center;
+   margin-left:180px;
 
 }
 .no-padding{
@@ -113,59 +110,30 @@ margin-right: 0;
 /* Footer */
 .footer{
   background: #171817;
+  color: white;
 }
 /* * Media Querey section */
-@media(max-width:540px) {
-  .navbar-brand{
-      display: block;
-    }
-  .text-block{
-    display: none;
+@media(max-width:540px){
+.navbar-brand{
+    display: block;
   }
-  .about-section{
-    width: 100%;
-    padding: 0 15px;
-  }
-  .about-img{
-    width: 100%;
-    height: auto;
-  }
-  .contact-section_img{
-    width: 80%;
-    height: auto;
-  }
-  .btn{
-    /* margin-left: 60px; */
-    width: 80%;
-    margin: 10px auto;
-    line-height: unset;
-  }
-  .row{
-    margin: 0;
-  }
-  .jewellary-section_img {
-    width: 100%;
-    padding: 20px 0;
-  }
-  .contact-form-container{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-  }
-  .contact-form-container form {
-    width: 100%;
-  }
-  .input{
-    margin: 10px auto;
-  }
+.text-block{
+  display: none;
 }
-
-/*End Media Querey section */
-
-/* * Media Querey section */
-/* Media query for ipad */
-@media(max-width:540px) {
+.about-section{
+  width: 100%;
+}
+.about-img{
+  width: 100%;
+  height: auto;
+}
+.contact-section_img{
+  width: 80%;
+  height: auto;
+}
+.btn{
+  margin-left: 60px;
+}
 }
 
 /*End Media Querey section */
