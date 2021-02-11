@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+a {
+  color: white !important;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-img {
+  background-image: url('image/coffeehouse.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.top-nav {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+.bg-color {
+  background-color: black;
+}
+
+nav {
+  text-align: center;
+  padding: 5px 0;
+}
+
+nav .nav-l {
+  margin: 0 15px;
+  font-size: 17px;
+}
+
+#title-heading {
+  text-align: center;
+  /* color: wheat; */
+  color: white;
+  padding-top: 220px;
+  font-size: 50px;
+}
+
+/* About Section */
+.about-title {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center !important:;
+  margin-top: 23px;
+  margin-left: 40%;
+}
+
+.about-info {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.jumbotron-info {
+  width: 60%;
+  margin: 20px auto;
+  border-left: solid grey 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tab-menu {
+  color: Black !important;
+}
+
+@media(max-width:640px){
+.top-nav{
+  position: fixed;
+  /* right: 153px; */
+  top: 0;
+  width: 100%;
+  }
+  .about-info {
+    width: 70%;
+    margin: 10px auto;
+}
+#about-cafe{
+margin-left: 58px;
+}
+.jumbotron-info {
+    width: 79%;
+    margin: 20px auto;
+    border-left: solid grey 5px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+}
+.Opening-time{
+  padding: 10px 38px !important;
+}
+}
