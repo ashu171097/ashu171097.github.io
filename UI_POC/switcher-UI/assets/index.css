@@ -1,0 +1,38 @@
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #e2e5ed;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.dollar-img {
+    position: absolute;
+    width: 67px;
+    opacity: .1;
+    z-index: 0;
+}
+.btn-primary {
+    background-color: #6183cc;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 20%);
+    border-color: transparent;
+    transition: background 0.8s !important;
+    padding: 8px 30px;
+    border-radius: 20px;
+    outline: none;
+    text-transform: inherit;
+    font-weight: 500;
+    /* border: 1px solid #6183cc !important; */
+    color: #fff;
+}
+.sidebar-active-class {
+    border: 2px solid rgb(97, 131, 204) !important;
+}

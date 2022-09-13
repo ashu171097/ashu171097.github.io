@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/index.css">
+</head>
+
+<body>
+    <div class="card shadow-lg">
+        <div class="card-header mt-10">
+            <div class="flex-justify-space">
+                <div class="xs-w-100" style=" display: flex;
+                justify-content: space-between;">
+                    <span class="text-color" style=" font-size: 12px;">Top-up Plans for Werq Credits</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="card mt-10" style="border-radius: 10px !important;cursor: pointer;position: relative;" id="button-1"
+            onclick="radioBtnSwitcher('#button-1')">
+            <div style="display: flex;
+            justify-content: space-between;">
+                <span style="font-size:14px; ">5000 Werq Credits</span>
+                <span style="font-size: 15px; color:#6183cc; font-weight: bold;">$235</span>
+            </div>
+
+            <div style="font-size: 12px;">No Expiration</div>
+            <img style="
+           top: 1px;
+            " src="./assets/img/werq-coins.png" alt="" class="dollar-img">
+
+        </div>
+        <div class="card mt-10" style="border-radius: 10px !important;cursor: pointer;position: relative; "
+            id="button-2" onclick="radioBtnSwitcher('#button-2')">
+            <div style="display: flex;
+            justify-content: space-between;">
+                <span style="font-size:14px; ">5000 Werq Credits</span>
+                <span style="font-size: 15px; color:#6183cc; font-weight: bold;">$235</span>
+            </div>
+
+            <div style="font-size: 12px;">No Expiration</div>
+            <img style="
+         top: 1px;
+            " src="./assets/img/werq-coins.png" alt="" class="dollar-img">
+
+        </div>
+        <div class="card mt-10" style="border-radius: 10px !important; cursor: pointer;position: relative;"
+            id="button-3" onclick=" radioBtnSwitcher('#button-3')">
+            <div style="display: flex;
+            justify-content: space-between;">
+                <span style="font-size:14px; ">5000 Werq Credits</span>
+                <span style="font-size: 15px; color:#6183cc; font-weight: bold;">$235</span>
+            </div>
+
+            <div style="font-size: 12px;">No Expiration</div>
+            <img style="
+          top: 1px;
+            " src="./assets/img/werq-coins.png" alt="" class="dollar-img">
+
+        </div>
+        <div class="more-container-bill">
+            <button onclick="" type="button" class="bill-btn btn btn-primary bill-btn bill-dashbord-btn font-size-11"
+                style="margin: 0px 3px;">
+                Purchase Werq Credits
+            </button>
+        </div>
+
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+
+        function radioBtnSwitcher(input) {
+            // alert("switcher");
+            if (input === '#button-1') 
+            {
+                $('#button-1').addClass('sidebar-active-class');
+                $('#button-2').removeClass('sidebar-active-class');
+                $('#button-3').removeClass('sidebar-active-class');
+            }
+            else if (input === "#button-2") {
+                $('#button-1').removeClass('sidebar-active-class');
+                $('#button-2').addClass('sidebar-active-class');
+                $('#button-3').removeClass('sidebar-active-class');
+            }
+            else if (input === "#button-3") {
+                $('#button-1').removeClass('sidebar-active-class');
+                $('#button-2').removeClass('sidebar-active-class');
+                $('#button-3').addClass('sidebar-active-class');
+            }
+        }
+    </script>
+</body>
+
+</html>
