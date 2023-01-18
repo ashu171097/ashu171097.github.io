@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Traker</title>
+
+
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" media="screen" href="/assets/vendor/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" media="screen" href="/assets/vendor/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" media="screen" href="/assets/vendor/prismjs/themes/prism.css" />
+    <link rel="stylesheet" media="screen" href="/assets/vendor/prismjs/plugins/toolbar/prism-toolbar.css" />
+    <link rel="stylesheet" media="screen" href="/assets/vendor/prismjs/plugins/line-numbers/prism-line-numbers.css" />
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel="stylesheet" media="screen" href="/assets/css/theme.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <!-- <img src="assets/img/logo.svg" width="47" alt="Silicon"> -->
+                Silicon
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse5" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="dropdown order-lg-3 ms-4">
+                <a href="#" class="d-flex nav-link p-0" data-bs-toggle="dropdown">
+                    <img src="/assets/img/avatar/05.jpg" class="rounded-circle" width="48" alt="Avatar">
+                    <div class="d-none d-sm-block ps-2">
+                        <div class="fs-14 lh-1 opacity-60">Hello,</div>
+                        <div class="fs-xs dropdown-toggle">Alexander</div>
+                    </div>
+                </a>
+
+            </div>
+            <nav id="navbarCollapse5" class="collapse navbar-collapse order-lg-2">
+                <hr class="d-lg-none mt-3 mb-2">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active fs-14">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-14">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-14">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link fs-14">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pt-5">
+        <div class="container px-4">
+            <div id="expenseList"> </div>
+        </div>
+        
+
+
+    </section>
+
+
+    <!-- Jump to anchor navigation -->
+    <aside id="jumpToNav" class="side-nav side-nav-end d-none d-xxl-block position-fixed top-0 end-0 vh-100 py-5"
+        style="width: 20rem;">
+        <h3 class="fs-lg mt-5 pt-5">Jump to</h3>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#accordion-default" class="nav-link" data-scroll data-scroll-offset="-6">Default style</a>
+            </li>
+            <li class="nav-item">
+                <a href="#accordion-alt" class="nav-link" data-scroll data-scroll-offset="-6">Alternative style</a>
+            </li>
+        </ul>
+    </aside>
+    <!-- Back to top button -->
+    <a href="#top" class="btn-scroll-top" data-scroll>
+        <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+        <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+    <!-- Vendor Scripts -->
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/vendor/prismjs/components/prism-core.min.js"></script>
+    <script src="/assets/vendor/prismjs/components/prism-markup.min.js"></script>
+    <script src="/assets/vendor/prismjs/components/prism-clike.min.js"></script>
+    <script src="/assets/vendor/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+    <script src="assets/vendor/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+    <script src="/assets/vendor/prismjs/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="../assets/js/theme.min.js"></script>
+    <script src="../assets/js/data.js"></script>
+
+    <!-- DevExtreme theme -->
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/22.2.3/css/dx.light.css">
+
+    <!-- DevExtreme library -->
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.3/js/dx.all.js"></script>
+    <!-- Jquery Script -->
+
+</body>
+
+</html>
