@@ -19070,3 +19070,12 @@ img-comparison-slider:focus {
 }
 
 /*# sourceMappingURL=theme.min.css.map */
+
+a.dx-link.dx-icon.dx-link-icon{
+    color: #6366f1 !important;
+    font-size: 14px !important; 
+ }
+ .dx-widget {
+    font-size: 12px !important;
+ }
+
