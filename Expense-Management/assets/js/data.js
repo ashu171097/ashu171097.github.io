@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('#expenseList').dxDataGrid({
           dataSource: customers,
           keyExpr: 'ID',
-          columns: ['ExpenseName', ' Amount', 'ExpenseCategory', ' CreatedDate', 'UpdatedDate',
+          columns: ['ExpenseName', 'Amount', 'ExpenseCategory', 'CreatedDate', 'UpdatedDate',
           {
             caption: 'Actions',
             type: "buttons",
@@ -12,12 +12,7 @@ $(document).ready(function() {
             fixed: true,
             fixedPosition: "right",
             buttons: [
-              {
-                hint: "view",
-                icon: "bx bx-show",
-
-
-            },
+           
             {
               hint: "Edit",
               icon: "bx bx-edit",
