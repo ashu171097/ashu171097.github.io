@@ -19079,3 +19079,21 @@ a.dx-link.dx-icon.dx-link-icon{
     font-size: 12px !important;
  }
 
+ .nav-sign-up{
+    padding: 0.275rem 1.025rem !important;
+    font-size: 0.65rem !important;
+    border-radius: 0.25rem !important;
+    font-weight: 500 !important;
+}
+.display-content  {
+    display: contents;
+}  
+
+.user-avtar{
+    font-size: 0.725rem !important;
+}
+.d-flex-end{
+    display: flex;
+    justify-content: end;
+    }
+

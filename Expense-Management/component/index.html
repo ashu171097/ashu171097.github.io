@@ -62,14 +62,79 @@
         </div>
     </header>
 
-    <section class="pt-5">
+    <section class="pt-3">
         <div class="container px-4">
+            <div class="d-flex-end pb-3">
+                <!-- <button type="button" class="btn btn-primary btn-sm nav-sign-up me-2">Add New</button> -->
+                <button class="btn btn-primary btn-sm nav-sign-up me-2" type="button" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Add New Expense" id="addBtn">
+                    <!-- <i class="bx bx-plus fs-lg me-2  user-avtar display-content "></i> -->
+                    Add New Expense
+                </button>
+
+            </div>
             <div id="expenseList"> </div>
         </div>
-        
-
-
     </section>
+
+
+
+
+  
+<!-- Modal markup -->
+<div class="modal" tabindex="-1" role="dialog" id="addExpenseModal">
+    <div class="modal-dialog modal-dialog-centered " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Expense</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+       <div class="row">
+        <div class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label fs-xs" for="input-sm">Small input</label>
+                <input class="form-control form-control-sm" id="input-sm" type="text" placeholder="Small input placeholder">
+              </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label fs-xs" for="input-sm">Small input</label>
+                <input class="form-control form-control-sm" id="input-sm" type="text" placeholder="Small input placeholder">
+              </div>
+        </div>
+        
+       </div>
+
+       <div class="row">
+        <div class="col-sm-6">
+        <div class="mb-3">
+            <label class="form-label fs-xs" for="select-sm">Small select</label>
+            <select class="form-select form-select-sm" id="select-sm">
+              <option>Small select option</option>
+              <option>Option item 1</option>
+              <option>Option item 2</option>
+              <option>Option item 3</option>
+            </select>
+          </div>
+        </div>
+        <div  class="col-sm-6">
+            <div class="mb-3">
+                <label class="form-label fs-xs" for="input-sm">Small input</label>
+                <input class="form-control form-control-sm" id="input-sm" type="date" placeholder="Small input placeholder">
+              </div>
+        </div>
+       </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 
     <!-- Jump to anchor navigation -->
@@ -111,6 +176,17 @@
     <!-- DevExtreme library -->
     <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/22.2.3/js/dx.all.js"></script>
     <!-- Jquery Script -->
+
+
+   <script>
+     $(document).ready(function () {
+
+        $("#addBtn").click(function () {
+                $("#addExpenseModal").modal('show');
+            });
+     });
+
+   </script>
 
 </body>
 
