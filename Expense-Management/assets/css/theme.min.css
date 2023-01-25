@@ -8146,13 +8146,15 @@ fieldset:disabled .btn {
 .fs-xs {
     font-size: 0.75rem !important
 }
-.fs-12{
+
+.fs-12 {
     font-size: 12px !important;
 }
 
-.fs-14{
+.fs-14 {
     font-size: 14px !important;
 }
+
 .fst-italic {
     font-style: italic !important
 }
@@ -19071,29 +19073,37 @@ img-comparison-slider:focus {
 
 /*# sourceMappingURL=theme.min.css.map */
 
-a.dx-link.dx-icon.dx-link-icon{
+a.dx-link.dx-icon.dx-link-icon {
     color: #6366f1 !important;
-    font-size: 14px !important; 
- }
- .dx-widget {
-    font-size: 12px !important;
- }
+    font-size: 14px !important;
+}
 
- .nav-sign-up{
+.dx-widget {
+    font-size: 12px !important;
+}
+
+.nav-sign-up {
     padding: 0.275rem 1.025rem !important;
     font-size: 0.65rem !important;
     border-radius: 0.25rem !important;
     font-weight: 500 !important;
 }
-.display-content  {
-    display: contents;
-}  
 
-.user-avtar{
+.display-content {
+    display: contents;
+}
+
+.user-avtar {
     font-size: 0.725rem !important;
 }
-.d-flex-end{
+
+.d-flex-end {
     display: flex;
     justify-content: end;
-    }
+}
 
+.toast-absolute{
+    position: absolute;
+    right: 0px;
+    top:20px;
+}
