@@ -1,0 +1,23 @@
+@import './variable.scss';
+@import './reset.scss';
+
+body{
+    background: $primary-color;
+    color: $text-color;
+    font-weight: map-get($font-weights, bol-font);
+}
+
+.main{
+
+    width: 80%;
+    margin: 0px auto;
+
+
+    #{&}__paragraph{
+        font-weight :map-get($font-weights , bold-font );
+    }
+
+    &:hover{
+        color: pink;
+    }
+}

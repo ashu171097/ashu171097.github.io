@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            padding: 0 !important;
+        }
+
+        .inline-YTPlayer {
+            width: 100%;
+        }
+
+        #P1 {
+            width: 400px;
+            height: auto !important;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 400px;
+            left: 0;
+            background-color: #000000cc;
+            z-index: 9999;
+            height: -webkit-fill-available;
+        }
+    </style>
+    <link href="jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="jquery.mb.YTPlayer.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $("#P1").YTPlayer();
+        });
+</script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="P1" class="player" 
+        data-property="{videoURL:'http://youtu.be/l_tHTmd5pgk',containment:'#P1',startAt:0,mute:true,autoPlay:true,loop:true,opacity:1, showControls: false, ratio:'auto',stopMovieOnBlur: false, coverImage: 'Picture2.png' }">
+        <span class="overlay"></span>
+    </div>
+
+</body>
+</html>
